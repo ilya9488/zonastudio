@@ -1,0 +1,124 @@
+.site-footer
+  background-color: $site-block-bg
+  color: $clear
+  padding-top: 80px
+  @include media-breakpoint-down(sm)
+    padding-top: 30px
+  // Footer-Logo
+  .link-footer-logo
+    display: block
+    margin-bottom: 30px
+  .title,
+  .text-under-logo
+    color: $clear
+  // Text-Under-Logo
+  .text-under-logo
+    @include media-breakpoint-down(md)
+      font-size: 14px
+      max-width: 400px
+    @include media-breakpoint-down(sm)
+      margin-bottom: 20px
+  // Footer-Menu
+  .footer-menu
+    @include media-breakpoint-down(sm)
+      margin-bottom: 20px
+  // Menu-Item
+  .menu-item
+    margin-bottom: 10px
+    &:hover,
+    &.current-menu-item
+      color: $yellow
+    &.menu-item-has-children
+      position: relative
+      &:hover
+        &::after
+          transform: rotate(.25turn)
+      &::after
+        content: '\203A'
+        display: block
+        width: 10px
+        height: 15px
+        line-height: 7px
+        position: absolute
+        right: -15px
+        top: 7px
+        font-size: 24px
+        color: $yellow
+        opacity: .95
+        transition: .3s
+      .sub-menu
+        position: absolute
+        left: 0
+        top: calc( 100% + 5px )
+        background-color: $site-block-bg
+        box-shadow: 0 0 10px -4px $clear, 0 0 10px -3px $site-block-bg
+        max-height: 0
+        overflow-y: hidden
+        transition: .5s
+        // sub item
+        .menu-item
+          white-space: nowrap
+          color: $clear
+          margin: 0 0 15px 0
+          &:last-child
+            margin-bottom: 0
+          &:hover
+            color: $yellow
+            .sub-menu
+              margin-top: 15px
+          .sub-menu
+            position: relative
+      &:hover
+        >.sub-menu
+          max-height: 2000px
+          padding: 20px 30px 20px 20px
+  // Contact
+  .footer-contact
+    @include media-breakpoint-down(sm)
+      margin-bottom: 30px
+  .contact
+    &-item
+      margin-bottom: 20px
+      display: flex
+      align-items: center
+    &-link
+      &:hover
+        color: $yellow
+      &.social
+        border: 1px solid transparent
+        border-radius: 50%
+        vertical-align: middle
+        display: inline-flex
+        justify-content: center
+        align-items: center
+        width: 40px
+        height: 40px
+        margin: 0 5px
+        &:hover
+          border-color: $yellow
+        &:focus
+          background-color: $yellow
+          color: $clear
+      &.email + .coma:last-of-type,
+      &.phone + .coma:last-of-type
+        display: none
+    &-icon
+      // position: absolute
+      // left: 0
+      // top: 50%
+      // transform: translateY(-50%)
+      margin-right: 10px
+      fill: currentColor
+      transition: .3s
+  // Footer-Copyright-Text
+  .footer-copyright-text
+    padding: 30px 0
+    font-family: $text
+    font-size: 14px
+    font-weight: 300
+    line-height: 20px
+    color: #CCC9C9
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    @include media-breakpoint-down(sm)
+      font-size: 12px
+      padding: 20px 0

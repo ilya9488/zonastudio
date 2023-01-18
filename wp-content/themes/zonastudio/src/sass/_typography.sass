@@ -1,0 +1,395 @@
+@import "mixin"
+.container-fluid
+  max-width: 1920px
+.container-xl
+  max-width: 1140px
+
+body
+  *
+    font-family: $text
+    margin: 0
+    padding: 0
+    border: none
+    outline: none
+    &::selection
+      background: $yellow
+      color: $clear
+    &::-webkit-scrollbar
+      width: 5px
+      height: 5px
+      cursor: pointer
+    &::-webkit-scrollbar-track
+      // box-shadow: inset 0 0 5px lighten($orange, 55%)
+      background: transparent
+    &::-webkit-scrollbar-thumb
+      // background: $orange
+      border-radius: 50px
+    &::-webkit-scrollbar-thumb:hover
+      // background: lighten($orange, 10)
+
+h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5
+  color: $title-c
+  font-family: $title
+  font-weight: 400
+  font-style: normal
+  text-transform: uppercase
+  margin: 0
+  position: relative
+  z-index: 0
+  &[data-bg-text]
+    &::before
+      content: attr(data-bg-text)
+      position: absolute
+      font-weight: 900
+      color: transparent
+      -webkit-text-stroke: 1px $yellow
+      text-transform: uppercase
+      opacity: .2
+      z-index: -1
+
+h1, .h1
+  font-size: 54px
+  line-height: 70px
+  padding-bottom: 40px
+  color: $clear
+  @include media-breakpoint-down(lg)
+    font-size: 50px
+    line-height: 60px
+  @include media-breakpoint-down(md)
+    font-size: 44px
+    line-height: 52px
+  @include media-breakpoint-down(sm)
+    font-size: 30px
+    line-height: 48px
+    padding-bottom: 20px
+  &[data-bg-text]
+    &::before
+      left: -110px
+      top: -105px
+      font-size: 150px
+      line-height: 180px
+      @media (max-width: 1350px)
+        left: 0
+      @include media-breakpoint-down(sm)
+        font-size: 100px
+    
+h2, .h2
+  font-size: 46px
+  line-height: 60px
+  padding-bottom: 30px
+  @include media-breakpoint-down(lg)
+    font-size: 42px
+    line-height: 54px
+  @include media-breakpoint-down(md)
+    font-size: 38px
+    line-height: 50px
+  @include media-breakpoint-down(sm)
+    font-size: 34px
+    line-height: 46px 
+  &.pb-60
+    padding-bottom: 60px
+    @include media-breakpoint-down(sm)
+      padding-bottom: 30px
+  &[data-bg-text]
+    &::before
+      left: 50%
+      transform: translateX(-50%)
+      top: -60px
+      font-size: 100px
+      line-height: 120px
+      @include media-breakpoint-down(lg)
+        // left: 10px
+        // transform: none
+        font-size: 80px
+      @include media-breakpoint-down(md)
+        font-size: 60px
+      @include media-breakpoint-down(sm)
+        font-size: 45px
+h3, .h3
+  font-size: 32px
+  line-height: 40px
+  padding-bottom: 30px
+  @include media-breakpoint-down(lg)
+    font-size: 30px
+    line-height: 38px
+  @include media-breakpoint-down(md)
+    font-size: 28px
+    line-height: 36px
+  @include media-breakpoint-down(sm)
+    font-size: 24px
+    line-height: 34px
+h4, .h4
+  font-size: 24px
+  line-height: 32px
+  padding-bottom: 16px
+  @include media-breakpoint-down(lg)
+    font-size: 22px
+    line-height: 30px
+  @include media-breakpoint-down(md)
+    font-size: 20px
+    line-height: 28px
+  @include media-breakpoint-down(sm)
+    font-size: 18px
+    line-height: 26px
+h5, .h5
+  font-size: 20px
+  line-height: 28px
+  padding-bottom: 16px
+  @include media-breakpoint-down(lg)
+    line-height: 26px
+  @include media-breakpoint-down(md)
+    font-size: 18px
+    line-height: 24px
+  @include media-breakpoint-down(sm)
+    font-size: 17px
+    line-height: 22px
+h6, .h6
+  font-size: 16px
+  line-height: 26px
+  padding-bottom: 16px
+
+p
+  font-size: 16px
+  font-weight: 400
+  line-height: 24px
+  color: inherit
+  font-family: $text
+  padding-bottom: 30px
+  margin: 0
+  @include media-breakpoint-down(lg)
+    padding-bottom: 26px
+  @include media-breakpoint-down(md)
+    padding-bottom: 22px
+  @include media-breakpoint-down(sm)
+    font-size: 14px
+    padding-bottom: 20px
+
+.description
+  font-size: 20px
+  line-height: 30px
+
+a,
+li >a
+  text-decoration: none
+  padding: 0
+  margin: 0
+  color: inherit
+  font-family: inherit
+  transition: .3s
+  &:active,
+  &:focus,
+  &:hover
+    outline: none
+    text-decoration: none
+    text-decoration: none
+    color: inherit
+.site-link-wrap
+  a
+    display: block
+    margin-top: 40px
+    text-transform: uppercase
+    &:hover
+      color: $yellow
+      &::after
+        // margin-left: 15px
+        transform: translateX(5px)
+    &::after
+      display: inline-block
+      content: '\2192'
+      position: relative
+      font-size: 22px
+      line-height: 100%
+      margin-left: 10px
+      transition: transform .3s
+
+ul
+  padding: 0
+  margin: 0
+  li
+    list-style: none
+    padding: 0
+    margin: 0
+    font-size: 16px
+    line-height: 26px
+    font-weight: 400
+    width: fit-content
+    @include media-breakpoint-down(md)
+      font-size: 15px
+    @include media-breakpoint-down(sm)
+      font-size: 14px
+ol
+  // padding-top: 10px
+  li
+    font-size: 16px
+    line-height: 26px
+    font-weight: 400
+    padding-bottom: 10px
+    @include media-breakpoint-down(md)
+      font-size: 15px
+    @include media-breakpoint-down(sm)
+      font-size: 14px
+.site-list-wrap
+  ul
+    padding-left: 18px
+    li
+      position: relative
+      font-size: 20px
+      line-height: 30px
+      margin-bottom: 10px
+      &::before
+        content: ''
+        display: block
+        position: absolute
+        width: 8px
+        height: 8px
+        background-color: $yellow
+        top: calc( 50% - 4px )
+        left: -15px
+
+// Btn
+.loadmore-wrap
+  padding-top: 30px
+  @include media-breakpoint-down(sm)
+    padding-top: 20px
+.site-btn-arrow
+
+.site-btn
+  position: relative
+  display: inline-block
+  font-family: $title
+  font-size: 16px
+  font-weight: 400
+  line-height: 19.2px
+  text-transform: uppercase
+  color: inherit
+  padding: 17px 56px
+  border: 1px solid $yellow
+  background-color: transparent
+  transition: .3s
+  z-index: 0
+  @include media-breakpoint-down(sm)
+    padding: 14px 30px
+    font-size: 14px
+  &.no-more-posts
+    opacity: .5
+    pointer-events: none
+
+  &:hover
+    color: $yellow
+    .line
+      opacity: 0
+  &:focus
+    background-color: $yellow
+    color: $clear
+    .line
+      opacity: 0
+  // 4 - lines
+  .line
+    position: absolute
+    display: block
+    background-color: $yellow
+    opacity: .4
+    z-index: -1
+    transition: inherit
+  // horisontal 2 - lines
+  .line_1,
+  .line_2,
+    left: 50%
+    transform: translateX(-50%)
+    height: 1px
+    width: calc(100% + 20px)
+  .line_1
+    top: -1px
+  .line_2
+    bottom: -1px
+  // vertical 2 - lines
+  .line_3,
+  .line_4
+    top: 50%
+    transform: translateY(-50%)
+    height: calc(100% + 20px)
+    width: 1px
+  .line_3
+    left: -1px
+  .line_4
+    right: -1px
+
+@import "icons"
+
+section
+  margin-bottom: 150px
+  @include media-breakpoint-down(lg)
+    margin-bottom: 120px
+  @include media-breakpoint-down(md)
+    margin-bottom: 90px
+  @include media-breakpoint-down(sm)
+    margin-bottom: 60px
+
+section,div
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+
+// if breadchrambs not found
+.top-offset
+  padding-top: 80px
+  @include media-breakpoint-down(md)
+    padding-top: 50px
+
+textarea
+  resize: none
+
+// strong
+//   color: $title-c
+
+// ( ? )
+.text-right
+  text-align: right
+.text-center
+  text-align: center
+.text-right
+  text-align: right
+
+// special sass
+.decor-two-lines
+  position: relative
+  &::before,
+  &::after
+    content: ''
+    display: block
+    position: absolute
+    left: 25px
+    top: 20px
+    background-color: $yellow
+    height: 1px
+    width: 80%
+    max-width: 200px
+  &::after
+    width: 1px
+    height: 80%
+    max-height: 200px
+    left: 35px
+    top: 10px
+  @include media-breakpoint-down(sm)
+    margin-bottom: 30px
+.decor-two-lines-right
+  position: relative
+  &::before,
+  &::after
+    content: ''
+    display: block
+    position: absolute
+    right: 25px
+    top: 20px
+    background-color: $yellow
+    height: 1px
+    width: 80%
+    max-width: 200px
+  &::after
+    width: 1px
+    height: 80%
+    max-height: 200px
+    right: 35px
+    top: 10px
+  @include media-breakpoint-down(sm)
+    margin-bottom: 30px

@@ -1,0 +1,46 @@
+.single-post-content
+  padding-top: 100px
+  overflow-x: hidden
+  @include media-breakpoint-down(sm)
+    padding-top: 60px
+  .site-slider
+    margin-bottom: 60px
+    @include media-breakpoint-down(sm)
+      margin-bottom: 30px
+  .text-wrap
+    margin-bottom: 60px
+    @include media-breakpoint-down(sm)
+      margin-bottom: 10px
+  .post-footer
+    padding: 30px 15px
+    border: 1px solid $border
+    border-left: none
+    border-right: none
+    @include media-breakpoint-down(sm)
+      padding: 15px
+    .data-block
+      display: flex
+      align-items: center
+      @include media-breakpoint-down(sm)
+        justify-content: center
+        margin-bottom: 15px
+      .data
+        &-img
+          margin-right: 15px
+          min-width: 30px
+        &-label
+          font-size: 20px
+          color: $title-c
+          margin-right: 10px
+          text-transform: uppercase
+          @include media-breakpoint-down(lg)
+            font-size: 16px
+        &-text
+          vertical-align: top
+          line-height: 100%
+          padding-top: 3px
+          color: $text-c
+          @include media-breakpoint-down(lg)
+            font-size: 14px
+            padding-top: 2px
+          

@@ -1,0 +1,72 @@
+.cooperation-looks
+  position: relative
+  .pod-klucz-img
+    position: absolute
+    right: 0
+    bottom: 0
+    transform: translateY(50%)
+    z-index: -1
+    @include media-breakpoint-down(sm)
+      opacity: 0.5
+  .looks
+    text-align: center
+    margin-bottom: 60px
+    &:nth-child(4n+2)
+      .arc
+        @include media-breakpoint-up(lg)
+          display: none
+    &:nth-last-child(-n+4)
+      @include media-breakpoint-up(lg)
+        margin-bottom: 0
+    &:nth-last-child(-n+3)
+      @include media-breakpoint-down(md)
+        margin-bottom: 0
+    &:nth-child(3n + 2)
+      .arc
+        @include media-breakpoint-down(md)
+          display: none
+        @include media-breakpoint-down(sm)
+          display: block
+    &:nth-child(2n + 2)
+      .arc
+        @include media-breakpoint-down(sm)
+          display: none
+    &-img-wrap
+      position: relative
+      margin-bottom: 20px
+      &::before
+        content: attr(data-count)
+        position: absolute
+        left: 50%
+        top: 50%
+        transform: translate(-50%, -50%)
+        color: $clear
+        font-family: $title
+        font-size: 40px
+        line-height: 40px
+        font-weight: 300
+        z-index: 1
+      &[data-count="0"]
+        &::before
+          display: none
+      .arc
+        position: absolute
+        left: -15px
+        transform: translateX(-50%)
+        width: 100%
+        &-one
+          @include media-breakpoint-down(sm)
+            top: 30%
+        &-two
+          bottom: 0
+    &-label
+      text-transform: uppercase
+      font-family: $title
+      font-size: 20px
+      font-weight: 400
+      @include media-breakpoint-down(md)
+        font-size: 18px
+      @include media-breakpoint-down(sm)
+        font-size: 16px
+      @include media-breakpoint-down(xs)
+        font-size: 14px

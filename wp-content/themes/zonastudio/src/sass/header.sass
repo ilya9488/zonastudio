@@ -1,0 +1,208 @@
+@import "root"
+@import "var"
+@import "node_modules/bootstrap/scss/functions"
+@import "node_modules/bootstrap/scss/variables"
+@import "node_modules/bootstrap/scss/mixins"
+@import "node_modules/bootstrap/scss/transitions"
+@import "node_modules/bootstrap/scss/reboot"
+@import "node_modules/bootstrap/scss/bootstrap-grid"
+
+@import "typography"
+@import "mixin"
+
+//@import "preloader"
+
+body
+  display: flex
+  position: relative
+  min-width: 320px
+  font-family: $text
+  font-weight: 400
+  background-color: $site-bg
+  color: $text-c
+  font-style: normal
+  font-size: 16px
+  overflow-x: hidden
+  padding-top: 100px
+  @include media-breakpoint-down(sm)
+    padding-top: 70px
+  .preloader-wr
+    width: 100%
+    height: 100%
+    position: fixed
+    left: 0
+    top: 0
+    display: flex
+    align-items: center
+    justify-content: center
+    z-index: 1000
+    background-color: #2A2523
+    .text-primary
+      color: lighten(#2A2523, 15) !important
+  &:not(.home)
+    .preloader-wr
+      display: none
+  &.overflow
+    overflow: hidden
+    width: 100%
+    height: 100%
+  #page
+    display: flex
+    min-height: 100vh
+    width: 100%
+    flex-direction: column
+    // @media (min-width: 2000px)
+    //   min-height: 1500px
+    main
+      flex-grow: 1
+
+
+// Site-Header.Sticky-Bg
+.site-header.sticky-bg
+  // background: $site-bg
+  // box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.3)
+// is_404 page
+.site-header.add_bg_bshad
+  // background: $site-bg
+  // box-shadow: 0px 10px 30px $box-shad
+
+// Site-Header
+.site-header
+  position: fixed
+  width: 100%
+  top: 0
+  padding: 20px 0
+  background-color: $site-block-bg
+  box-shadow: 0px 10px 20px rgba(42, 37, 35, 0.2)
+  transition: .5s
+  z-index: 9
+  @include media-breakpoint-down(sm)
+    padding: 15px 0
+    &+.site-main,
+    &+.site-main + .footer
+      transition: .5s
+    &.burger-open + .site-main,
+    &.burger-open + .site-main + .footer
+      opacity: .2
+  .link-header-logo
+    .header-logo
+      width: 145px
+      height: 60px
+      @include media-breakpoint-down(sm)
+        width: 100px
+        height: 40px
+  .container-fluid
+    max-width: 1800px
+  // header menu
+  .header-menu
+    display: flex
+    justify-content: flex-end
+    @include media-breakpoint-down(lg)
+      position: fixed
+      flex-direction: column
+      background-color: $site-block-bg
+      right: -2000px
+      min-width: 320px
+      max-width: 400px
+      transition: .3s
+      @include media-breakpoint-down(sm)
+        width: 100%
+    .menu-item
+      color: $clear
+      font-family: $title
+      font-size: 16px
+      line-height: 20px
+      font-weight: 400
+      margin: 20px
+      text-transform: uppercase
+      transition: .3s
+      @include media-breakpoint-down(lg)
+        &:first-child
+          margin-top: 40px
+        &:last-child
+          margin-bottom: 40px
+      &:hover,
+      &.current-menu-item
+        color: $yellow
+      &.menu-item-has-children
+        position: relative
+        &:hover
+          &::after
+            transform: rotate(.25turn)
+        &::after
+          content: '\203A'
+          display: block
+          width: 10px
+          height: 15px
+          line-height: 7px
+          position: absolute
+          right: -15px
+          top: 4px
+          font-size: 24px
+          color: $yellow
+          opacity: .95
+          transition: .3s
+        .sub-menu
+          position: absolute
+          left: 0
+          top: calc( 100% + 10px )
+          background-color: $site-block-bg
+          box-shadow: 0 0 10px -3px $clear, 0 0 10px -3px $site-block-bg
+          max-height: 0
+          overflow-y: hidden
+          transition: .5s
+          // sub item
+          .menu-item
+            white-space: nowrap
+            .sub-menu
+              position: relative
+            &:hover
+              .sub-menu
+                margin-top: 15px
+        &:hover
+          >.sub-menu
+            max-height: 2000px
+            padding-right: 10px
+          
+
+  // header-menu.open
+  .menu-menu-glowne-container.open
+    // position: relative
+    .header-menu
+      right: 0
+      box-shadow: 0 20px 20px -10px transparentize($yellow, .9)
+
+  // Menu-Burger
+  .menu-burger
+    padding-right: 40px
+    @include media-breakpoint-down(sm)
+      padding-right: 15px
+    svg
+      cursor: pointer
+      width: 40px
+      height: 40px
+      @include media-breakpoint-down(sm)
+        width: 30px
+        height: 30px
+      path[d*="M40 6"],
+      path[d*="M40 17"],
+      path[d*="M40 28"]
+        transition: .5s, fill .3s
+        fill: $menu-h
+  // .Menu-Burger.Open
+  .menu-burger.open
+    path[d*="M40 6"]
+      transform: rotate(0.13turn) translate(5px, -10px)
+    path[d*="M40 17"]
+      fill: transparent
+    path[d*="M40 28"]
+      transform: rotate(-0.13turn) translate(-20px, -6px)
+    &:hover
+      path
+        fill: $yellow
+      path[d*="M40 17"]
+        fill: transparent
+
+@import "sections/_home_page_first"
+@import "sections/breadcrumbs"
+@import "pages/_content_single"
