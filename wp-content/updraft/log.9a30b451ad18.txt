@@ -1,0 +1,409 @@
+0000.001 (0) Opened log file at time: Thu, 07 Jul 2022 16:35:12 +0000 on http://zonastudio.pl.loc
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.14 WP: 6.0 PHP: 7.4.21 (apache2handler, Windows NT ILYAOREL 6.1 build 7601 (Windows 7 Ultimate Edition Service Pack 1) AMD64) MySQL: 8.0.24 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 35.8M | 8M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 7620.3 MB
+0000.014 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.018 (0) Semaphore (fd, wp_options) being initialised
+0000.027 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.039 (0) Set semaphore last lock (fd) time to 2022-07-07 16:35:12
+0000.042 (0) Semaphore lock (fd) complete
+0000.051 (0) Backup run: resumption=0, nonce=9a30b451ad18, file_nonce=9a30b451ad18 begun at=1657211712 (0s ago), job type=backup
+0000.056 (0) Scheduling a resumption (1) after 300 seconds (1657212012) in case this run gets aborted
+0000.075 (0) Checking if we have a zip executable available
+0000.085 (0) Creation of backups of directories: beginning
+0000.100 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.089 (0) Total entities for the zip file: 474 directories, 2741 files (0 skipped as non-modified), 45.2 MB
+0001.125 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.155 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.190 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.228 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.270 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.317 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.355 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.404 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.450 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.484 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.489 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.5 MB, 2741 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.837 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 1100 files added (on-disk size: 4022.9 KB)
+0002.866 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 1200 files added (on-disk size: 4022.9 KB)
+0002.894 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 1300 files added (on-disk size: 4022.9 KB)
+0002.925 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 1400 files added (on-disk size: 4022.9 KB)
+0002.956 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 1500 files added (on-disk size: 4022.9 KB)
+0002.986 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 1600 files added (on-disk size: 4022.9 KB)
+0003.020 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 1700 files added (on-disk size: 4022.9 KB)
+0003.052 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 1800 files added (on-disk size: 4022.9 KB)
+0003.083 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 1900 files added (on-disk size: 4022.9 KB)
+0003.114 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 2000 files added (on-disk size: 4022.9 KB)
+0003.120 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (20.8 MB, 2741 files batched, 1001 (2002) added so far); re-opening (prior size: 4022.9 KB)
+0005.098 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 2100 files added (on-disk size: 10001.9 KB)
+0005.128 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 2200 files added (on-disk size: 10001.9 KB)
+0005.156 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 2300 files added (on-disk size: 10001.9 KB)
+0005.185 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 2400 files added (on-disk size: 10001.9 KB)
+0005.215 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 2500 files added (on-disk size: 10001.9 KB)
+0005.249 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 2600 files added (on-disk size: 10001.9 KB)
+0005.283 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.tmp: 2700 files added (on-disk size: 10001.9 KB)
+0006.839 (0) Creating zip file manifest (backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.list-temp.tmp)
+0006.853 (0) Successfully created zip file manifest (size: 213046)
+0007.108 (0) Created plugins zip (0) - 14272.5 KB in 7 s (2037.9 KB/s) (sha1: 87abe662a8c62130408021e72b185422e02dd082, sha256: 57a68e91127154dc4ff6c62fda78cd68ebdcf3d8767b28b4d70509a6d05e523a)
+0007.115 (0) Beginning creation of dump of themes (split every: 400 MB)
+0018.701 (0) Total entities for the zip file: 2942 directories, 20563 files (0 skipped as non-modified), 167.9 MB
+0018.715 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0018.847 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 100 files added (on-disk size: 543.4 KB)
+0018.883 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 200 files added (on-disk size: 543.4 KB)
+0018.917 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 300 files added (on-disk size: 543.4 KB)
+0018.951 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 400 files added (on-disk size: 543.4 KB)
+0018.984 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 500 files added (on-disk size: 543.4 KB)
+0019.018 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 600 files added (on-disk size: 543.4 KB)
+0019.050 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 700 files added (on-disk size: 543.4 KB)
+0019.085 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 800 files added (on-disk size: 543.4 KB)
+0019.117 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 900 files added (on-disk size: 543.4 KB)
+0019.150 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 1000 files added (on-disk size: 543.4 KB)
+0019.153 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.3 MB, 20563 files batched, 1001 (1002) added so far); re-opening (prior size: 543.4 KB)
+0020.292 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 1100 files added (on-disk size: 2662.8 KB)
+0020.325 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 1200 files added (on-disk size: 2662.8 KB)
+0020.361 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 1300 files added (on-disk size: 2662.8 KB)
+0020.396 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 1400 files added (on-disk size: 2662.8 KB)
+0020.430 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 1500 files added (on-disk size: 2662.8 KB)
+0020.465 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 1600 files added (on-disk size: 2662.8 KB)
+0020.522 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 1700 files added (on-disk size: 2662.8 KB)
+0020.557 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 1800 files added (on-disk size: 2662.8 KB)
+0020.599 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 1900 files added (on-disk size: 2662.8 KB)
+0020.640 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 2000 files added (on-disk size: 2662.8 KB)
+0020.646 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.9 MB, 20563 files batched, 1001 (2003) added so far); re-opening (prior size: 2662.8 KB)
+0022.258 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 2100 files added (on-disk size: 5453.9 KB)
+0022.295 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 2200 files added (on-disk size: 5453.9 KB)
+0022.333 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 2300 files added (on-disk size: 5453.9 KB)
+0022.370 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 2400 files added (on-disk size: 5453.9 KB)
+0022.406 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 2500 files added (on-disk size: 5453.9 KB)
+0022.443 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 2600 files added (on-disk size: 5453.9 KB)
+0022.481 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 2700 files added (on-disk size: 5453.9 KB)
+0022.524 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 2800 files added (on-disk size: 5453.9 KB)
+0022.559 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 2900 files added (on-disk size: 5453.9 KB)
+0022.595 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 3000 files added (on-disk size: 5453.9 KB)
+0022.601 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2.3 MB, 20563 files batched, 1001 (3004) added so far); re-opening (prior size: 5453.9 KB)
+0023.312 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 3100 files added (on-disk size: 6472.7 KB)
+0023.346 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 3200 files added (on-disk size: 6472.7 KB)
+0023.381 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 3300 files added (on-disk size: 6472.7 KB)
+0023.415 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 3400 files added (on-disk size: 6472.7 KB)
+0023.449 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 3500 files added (on-disk size: 6472.7 KB)
+0023.484 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 3600 files added (on-disk size: 6472.7 KB)
+0023.518 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 3700 files added (on-disk size: 6472.7 KB)
+0023.556 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 3800 files added (on-disk size: 6472.7 KB)
+0023.589 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 3900 files added (on-disk size: 6472.7 KB)
+0023.623 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 4000 files added (on-disk size: 6472.7 KB)
+0023.631 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.7 MB, 20563 files batched, 1001 (4005) added so far); re-opening (prior size: 6472.7 KB)
+0025.000 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 4100 files added (on-disk size: 9011.2 KB)
+0025.041 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 4200 files added (on-disk size: 9011.2 KB)
+0025.082 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 4300 files added (on-disk size: 9011.2 KB)
+0025.117 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 4400 files added (on-disk size: 9011.2 KB)
+0025.154 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 4500 files added (on-disk size: 9011.2 KB)
+0025.189 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 4600 files added (on-disk size: 9011.2 KB)
+0025.230 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 4700 files added (on-disk size: 9011.2 KB)
+0025.263 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 4800 files added (on-disk size: 9011.2 KB)
+0025.297 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 4900 files added (on-disk size: 9011.2 KB)
+0025.331 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 5000 files added (on-disk size: 9011.2 KB)
+0025.337 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2 MB, 20563 files batched, 1001 (5006) added so far); re-opening (prior size: 9011.2 KB)
+0026.032 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 5100 files added (on-disk size: 9894.5 KB)
+0026.065 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 5200 files added (on-disk size: 9894.5 KB)
+0026.098 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 5300 files added (on-disk size: 9894.5 KB)
+0026.131 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 5400 files added (on-disk size: 9894.5 KB)
+0026.163 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 5500 files added (on-disk size: 9894.5 KB)
+0026.196 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 5600 files added (on-disk size: 9894.5 KB)
+0026.229 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 5700 files added (on-disk size: 9894.5 KB)
+0026.261 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 5800 files added (on-disk size: 9894.5 KB)
+0026.293 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 5900 files added (on-disk size: 9894.5 KB)
+0026.326 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 6000 files added (on-disk size: 9894.5 KB)
+0026.332 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (1 MB, 20563 files batched, 1001 (6007) added so far); re-opening (prior size: 9894.5 KB)
+0026.816 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 6100 files added (on-disk size: 10475.2 KB)
+0026.849 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 6200 files added (on-disk size: 10475.2 KB)
+0026.887 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 6300 files added (on-disk size: 10475.2 KB)
+0026.924 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 6400 files added (on-disk size: 10475.2 KB)
+0026.960 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 6500 files added (on-disk size: 10475.2 KB)
+0026.997 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 6600 files added (on-disk size: 10475.2 KB)
+0027.036 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 6700 files added (on-disk size: 10475.2 KB)
+0027.072 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 6800 files added (on-disk size: 10475.2 KB)
+0027.107 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 6900 files added (on-disk size: 10475.2 KB)
+0027.143 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 7000 files added (on-disk size: 10475.2 KB)
+0027.151 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2 MB, 20563 files batched, 1001 (7008) added so far); re-opening (prior size: 10475.2 KB)
+0027.809 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 7100 files added (on-disk size: 11346.9 KB)
+0027.843 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 7200 files added (on-disk size: 11346.9 KB)
+0027.876 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 7300 files added (on-disk size: 11346.9 KB)
+0027.909 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 7400 files added (on-disk size: 11346.9 KB)
+0027.942 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 7500 files added (on-disk size: 11346.9 KB)
+0027.976 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 7600 files added (on-disk size: 11346.9 KB)
+0028.009 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 7700 files added (on-disk size: 11346.9 KB)
+0028.041 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 7800 files added (on-disk size: 11346.9 KB)
+0028.085 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 7900 files added (on-disk size: 11346.9 KB)
+0028.127 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 8000 files added (on-disk size: 11346.9 KB)
+0028.134 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (3.9 MB, 20563 files batched, 1001 (8009) added so far); re-opening (prior size: 11346.9 KB)
+0028.990 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 8100 files added (on-disk size: 13415.4 KB)
+0029.026 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 8200 files added (on-disk size: 13415.4 KB)
+0029.064 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 8300 files added (on-disk size: 13415.4 KB)
+0029.099 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 8400 files added (on-disk size: 13415.4 KB)
+0029.136 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 8500 files added (on-disk size: 13415.4 KB)
+0029.172 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 8600 files added (on-disk size: 13415.4 KB)
+0029.212 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 8700 files added (on-disk size: 13415.4 KB)
+0029.267 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 8800 files added (on-disk size: 13415.4 KB)
+0029.320 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 8900 files added (on-disk size: 13415.4 KB)
+0029.376 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 9000 files added (on-disk size: 13415.4 KB)
+0029.385 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.6 MB, 20563 files batched, 1001 (9010) added so far); re-opening (prior size: 13415.4 KB)
+0030.376 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 9100 files added (on-disk size: 14992.5 KB)
+0030.426 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 9200 files added (on-disk size: 14992.5 KB)
+0030.490 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 9300 files added (on-disk size: 14992.5 KB)
+0030.555 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 9400 files added (on-disk size: 14992.5 KB)
+0030.639 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 9500 files added (on-disk size: 14992.5 KB)
+0030.707 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 9600 files added (on-disk size: 14992.5 KB)
+0030.771 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 9700 files added (on-disk size: 14992.5 KB)
+0030.842 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 9800 files added (on-disk size: 14992.5 KB)
+0030.893 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 9900 files added (on-disk size: 14992.5 KB)
+0030.949 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 10000 files added (on-disk size: 14992.5 KB)
+0030.959 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (3.4 MB, 20563 files batched, 1001 (10011) added so far); re-opening (prior size: 14992.5 KB)
+0031.904 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 10100 files added (on-disk size: 16348.8 KB)
+0031.965 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 10200 files added (on-disk size: 16348.8 KB)
+0032.023 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 10300 files added (on-disk size: 16348.8 KB)
+0032.075 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 10400 files added (on-disk size: 16348.8 KB)
+0032.122 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 10500 files added (on-disk size: 16348.8 KB)
+0032.170 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 10600 files added (on-disk size: 16348.8 KB)
+0032.219 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 10700 files added (on-disk size: 16348.8 KB)
+0032.268 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 10800 files added (on-disk size: 16348.8 KB)
+0032.329 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 10900 files added (on-disk size: 16348.8 KB)
+0032.399 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 11000 files added (on-disk size: 16348.8 KB)
+0032.411 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2.1 MB, 20563 files batched, 1001 (11012) added so far); re-opening (prior size: 16348.8 KB)
+0033.166 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 11100 files added (on-disk size: 17141.6 KB)
+0033.238 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 11200 files added (on-disk size: 17141.6 KB)
+0033.302 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 11300 files added (on-disk size: 17141.6 KB)
+0033.359 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 11400 files added (on-disk size: 17141.6 KB)
+0033.437 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 11500 files added (on-disk size: 17141.6 KB)
+0033.508 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 11600 files added (on-disk size: 17141.6 KB)
+0033.569 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 11700 files added (on-disk size: 17141.6 KB)
+0033.636 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 11800 files added (on-disk size: 17141.6 KB)
+0033.706 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 11900 files added (on-disk size: 17141.6 KB)
+0033.785 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 12000 files added (on-disk size: 17141.6 KB)
+0033.823 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.9 MB, 20563 files batched, 1001 (12013) added so far); re-opening (prior size: 17141.6 KB)
+0035.367 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 12100 files added (on-disk size: 19385.6 KB)
+0035.446 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 12200 files added (on-disk size: 19385.6 KB)
+0035.510 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 12300 files added (on-disk size: 19385.6 KB)
+0035.573 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 12400 files added (on-disk size: 19385.6 KB)
+0035.634 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 12500 files added (on-disk size: 19385.6 KB)
+0035.696 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 12600 files added (on-disk size: 19385.6 KB)
+0035.749 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 12700 files added (on-disk size: 19385.6 KB)
+0035.806 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 12800 files added (on-disk size: 19385.6 KB)
+0035.855 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 12900 files added (on-disk size: 19385.6 KB)
+0035.909 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 13000 files added (on-disk size: 19385.6 KB)
+0035.921 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.4 MB, 20563 files batched, 1001 (13014) added so far); re-opening (prior size: 19385.6 KB)
+0037.630 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 13100 files added (on-disk size: 24344.9 KB)
+0037.720 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 13200 files added (on-disk size: 24344.9 KB)
+0037.798 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 13300 files added (on-disk size: 24344.9 KB)
+0037.866 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 13400 files added (on-disk size: 24344.9 KB)
+0037.924 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 13500 files added (on-disk size: 24344.9 KB)
+0037.995 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 13600 files added (on-disk size: 24344.9 KB)
+0038.083 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 13700 files added (on-disk size: 24344.9 KB)
+0038.171 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 13800 files added (on-disk size: 24344.9 KB)
+0038.241 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 13900 files added (on-disk size: 24344.9 KB)
+0038.308 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 14000 files added (on-disk size: 24344.9 KB)
+0038.323 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.2 MB, 20563 files batched, 1001 (14015) added so far); re-opening (prior size: 24344.9 KB)
+0040.325 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 14100 files added (on-disk size: 26213.5 KB)
+0040.389 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 14200 files added (on-disk size: 26213.5 KB)
+0040.450 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 14300 files added (on-disk size: 26213.5 KB)
+0040.511 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 14400 files added (on-disk size: 26213.5 KB)
+0040.572 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 14500 files added (on-disk size: 26213.5 KB)
+0040.644 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 14600 files added (on-disk size: 26213.5 KB)
+0040.702 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 14700 files added (on-disk size: 26213.5 KB)
+0040.764 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 14800 files added (on-disk size: 26213.5 KB)
+0040.833 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 14900 files added (on-disk size: 26213.5 KB)
+0040.897 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 15000 files added (on-disk size: 26213.5 KB)
+0040.917 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.8 MB, 20563 files batched, 1001 (15016) added so far); re-opening (prior size: 26213.5 KB)
+0042.752 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 15100 files added (on-disk size: 27654.6 KB)
+0042.843 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 15200 files added (on-disk size: 27654.6 KB)
+0042.911 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 15300 files added (on-disk size: 27654.6 KB)
+0042.982 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 15400 files added (on-disk size: 27654.6 KB)
+0043.067 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 15500 files added (on-disk size: 27654.6 KB)
+0043.129 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 15600 files added (on-disk size: 27654.6 KB)
+0043.213 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 15700 files added (on-disk size: 27654.6 KB)
+0043.297 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 15800 files added (on-disk size: 27654.6 KB)
+0043.373 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 15900 files added (on-disk size: 27654.6 KB)
+0043.445 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 16000 files added (on-disk size: 27654.6 KB)
+0043.461 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (1.5 MB, 20563 files batched, 1001 (16017) added so far); re-opening (prior size: 27654.6 KB)
+0044.243 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 16100 files added (on-disk size: 28370.7 KB)
+0044.311 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 16200 files added (on-disk size: 28370.7 KB)
+0044.380 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 16300 files added (on-disk size: 28370.7 KB)
+0044.455 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 16400 files added (on-disk size: 28370.7 KB)
+0044.521 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 16500 files added (on-disk size: 28370.7 KB)
+0044.601 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 16600 files added (on-disk size: 28370.7 KB)
+0044.681 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 16700 files added (on-disk size: 28370.7 KB)
+0044.761 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 16800 files added (on-disk size: 28370.7 KB)
+0044.839 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 16900 files added (on-disk size: 28370.7 KB)
+0044.918 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 17000 files added (on-disk size: 28370.7 KB)
+0044.938 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (1.3 MB, 20563 files batched, 1001 (17018) added so far); re-opening (prior size: 28370.7 KB)
+0045.813 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 17100 files added (on-disk size: 29064.5 KB)
+0045.886 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 17200 files added (on-disk size: 29064.5 KB)
+0045.958 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 17300 files added (on-disk size: 29064.5 KB)
+0046.026 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 17400 files added (on-disk size: 29064.5 KB)
+0046.091 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 17500 files added (on-disk size: 29064.5 KB)
+0046.163 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 17600 files added (on-disk size: 29064.5 KB)
+0046.231 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 17700 files added (on-disk size: 29064.5 KB)
+0046.298 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 17800 files added (on-disk size: 29064.5 KB)
+0046.365 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 17900 files added (on-disk size: 29064.5 KB)
+0046.421 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 18000 files added (on-disk size: 29064.5 KB)
+0046.441 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.4 MB, 20563 files batched, 1001 (18019) added so far); re-opening (prior size: 29064.5 KB)
+0047.946 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 18100 files added (on-disk size: 30960.7 KB)
+0048.008 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 18200 files added (on-disk size: 30960.7 KB)
+0048.068 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 18300 files added (on-disk size: 30960.7 KB)
+0048.139 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 18400 files added (on-disk size: 30960.7 KB)
+0048.205 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 18500 files added (on-disk size: 30960.7 KB)
+0048.264 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 18600 files added (on-disk size: 30960.7 KB)
+0048.323 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 18700 files added (on-disk size: 30960.7 KB)
+0048.395 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 18800 files added (on-disk size: 30960.7 KB)
+0048.471 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 18900 files added (on-disk size: 30960.7 KB)
+0048.538 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 19000 files added (on-disk size: 30960.7 KB)
+0048.556 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.5 MB, 20563 files batched, 1001 (19020) added so far); re-opening (prior size: 30960.7 KB)
+0050.804 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 19100 files added (on-disk size: 33724.4 KB)
+0050.868 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 19200 files added (on-disk size: 33724.4 KB)
+0050.933 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 19300 files added (on-disk size: 33724.4 KB)
+0050.957 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (32.9 MB, 20563 files batched, 297 (19317) added so far); re-opening (prior size: 33724.4 KB)
+0055.270 (0) A useful amount of data was added after this amount of zip processing: 5.6 s (normalised: 4.2 s, rate: 6035.6 KB/s)
+0055.275 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.5890140533447, normalised_time=4.2415158407228, max_time=55.271160840988, data points known=1, old_max_bytes=26214400, new_max_bytes=204959788)
+0055.461 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 19400 files added (on-disk size: 39803.5 KB)
+0055.520 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 19500 files added (on-disk size: 39803.5 KB)
+0055.589 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 19600 files added (on-disk size: 39803.5 KB)
+0055.653 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 19700 files added (on-disk size: 39803.5 KB)
+0055.713 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 19800 files added (on-disk size: 39803.5 KB)
+0055.771 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 19900 files added (on-disk size: 39803.5 KB)
+0055.822 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 20000 files added (on-disk size: 39803.5 KB)
+0055.887 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 20100 files added (on-disk size: 39803.5 KB)
+0055.940 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 20200 files added (on-disk size: 39803.5 KB)
+0056.002 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 20300 files added (on-disk size: 39803.5 KB)
+0056.019 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (34.1 MB, 20563 files batched, 1001 (20318) added so far); re-opening (prior size: 39803.5 KB)
+0060.769 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 20400 files added (on-disk size: 46364.5 KB)
+0060.828 (0) Zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.tmp: 20500 files added (on-disk size: 46364.5 KB)
+0061.895 (0) Creating zip file manifest (backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.list-temp.tmp)
+0061.953 (0) Successfully created zip file manifest (size: 1640100)
+0062.760 (0) Created themes zip (0) - 48007.5 KB in 55.6 s (862.8 KB/s) (sha1: a09550c32fe3e45298fb645f3da690ae3dbaefa3, sha256: c977556dba495e484afb200514c6f5dfb78201b7425f091978ae088e5412a9fa)
+0062.769 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0062.772 (0) Looking for candidates to backup in: C:\OpenServer\domains\zonastudio.pl.loc/wp-content/uploads
+0062.775 (0) finding files: 2022: adding to list (1)
+0062.779 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0062.795 (0) Total entities for the zip file: 2 directories, 0 files (0 skipped as non-modified), 0 MB
+0062.803 (0) Did not find any files in the zip: backup_2022-07-07-1835_zonastudio_9a30b451ad18-uploads.zip.tmp
+0062.814 (0) Created uploads zip (0) - 0.2 KB in 0 s (8.7 KB/s) (sha1: 2d37ab076081b0eed722e65d4472a39430402dd9, sha256: f27d79b74bec42336c5121e720dc26b9763e20fb02585c25285086068dbc57ac)
+0062.821 (0) Beginning backup of other directories found in the content directory (index: 0)
+0062.824 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0062.829 (0) Looking for candidates to backup in: C:\OpenServer\domains\zonastudio.pl.loc/wp-content
+0062.835 (0) finding files: index.php: adding to list (1)
+0062.841 (0) finding files: languages: adding to list (2)
+0062.847 (0) finding files: plugins: skipping: this is the plugins directory
+0062.853 (0) finding files: themes: skipping: this is the themes directory
+0062.862 (0) finding files: updraft: skipping: this is the updraft directory
+0062.869 (0) finding files: upgrade: skipping: excluded by options
+0062.874 (0) finding files: uploads: skipping: this is the uploads directory
+0062.911 (0) Total entities for the zip file: 2 directories, 89 files (0 skipped as non-modified), 3.4 MB
+0063.313 (0) Creating zip file manifest (backup_2022-07-07-1835_zonastudio_9a30b451ad18-others.zip.list-temp.tmp)
+0063.321 (0) Successfully created zip file manifest (size: 5296)
+0063.363 (0) Created others zip (0) - 1033.2 KB in 0.5 s (2143.4 KB/s) (sha1: a657bde40cebce8192f75beffa67c434fc08d241, sha256: ccf9952423a204b4a11777861e24a4e1b1e35d38d0e41eabc4defe365fd84cdb)
+0063.393 (0) Saving backup status to database (elements: 8)
+0063.408 (0) Beginning creation of database dump (WordPress DB)
+0063.415 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0063.528 (0) Table wp_options: Total expected rows (via COUNT): 186
+0063.534 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0063.582 (0) Table wp_options: Rows added in this batch (next record: 462): 182 (uncompressed bytes in this segment=102327) in 0.08 seconds
+0063.613 (0) Table wp_options: finishing file(s) (2, 19.2 KB)
+0063.635 (0) Table wp_users: Total expected rows (via COUNT): 1
+0063.642 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0063.656 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1378) in 0.03 seconds
+0063.673 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0063.700 (0) Table wp_usermeta: Total expected rows (via COUNT): 28
+0063.705 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0063.716 (0) Table wp_usermeta: Rows added in this batch (next record: 28): 28 (uncompressed bytes in this segment=2467) in 0.03 seconds
+0063.744 (0) Table wp_usermeta: finishing file(s) (2, 1.2 KB)
+0063.766 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0063.773 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.01 seconds
+0063.788 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0063.807 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0063.812 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0063.823 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2148) in 0.02 seconds
+0063.840 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0063.870 (0) Table wp_links: Total expected rows (via COUNT): 0
+0063.883 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.02 seconds
+0063.898 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0063.922 (0) Table wp_postmeta: Total expected rows (via COUNT): 168
+0063.925 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0063.940 (0) Table wp_postmeta: Rows added in this batch (next record: 186): 168 (uncompressed bytes in this segment=7659) in 0.03 seconds
+0063.961 (0) Table wp_postmeta: finishing file(s) (2, 1.7 KB)
+0063.986 (0) Table wp_posts: Total expected rows (via COUNT): 39
+0063.990 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0064.003 (0) Table wp_posts: Rows added in this batch (next record: 41): 39 (uncompressed bytes in this segment=21946) in 0.03 seconds
+0064.019 (0) Table wp_posts: finishing file(s) (2, 4.9 KB)
+0064.033 (0) Table wp_term_relationships: Total expected rows (approximate): 6
+0064.040 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 6 (uncompressed bytes in this segment=755) in 0.01 seconds
+0064.053 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0064.074 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 2
+0064.080 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0064.092 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=941) in 0.03 seconds
+0064.118 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0064.146 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0064.159 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 0.02 seconds
+0064.197 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0064.224 (0) Table wp_terms: Total expected rows (via COUNT): 2
+0064.231 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0064.250 (0) Table wp_terms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=767) in 0.03 seconds
+0064.276 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0064.284 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_options.table.tmpr463.gz (1/12/fopen): adding to final database dump
+0064.292 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_options.table.gz (2/12/fopen): adding to final database dump
+0064.300 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_users.table.tmpr2.gz (3/12/fopen): adding to final database dump
+0064.308 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_users.table.gz (4/12/fopen): adding to final database dump
+0064.317 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_usermeta.table.tmpr29.gz (5/12/fopen): adding to final database dump
+0064.323 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_usermeta.table.gz (6/12/fopen): adding to final database dump
+0064.330 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_commentmeta.table.tmpr0.gz (7/12/fopen): adding to final database dump
+0064.336 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_commentmeta.table.gz (8/12/fopen): adding to final database dump
+0064.344 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_comments.table.tmpr2.gz (9/12/fopen): adding to final database dump
+0064.350 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_comments.table.gz (10/12/fopen): adding to final database dump
+0064.356 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_links.table.tmpr0.gz (11/12/fopen): adding to final database dump
+0064.362 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_links.table.gz (12/12/fopen): adding to final database dump
+0064.368 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_postmeta.table.tmpr187.gz (13/12/fopen): adding to final database dump
+0064.375 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_postmeta.table.gz (14/12/fopen): adding to final database dump
+0064.382 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_posts.table.tmpr42.gz (15/12/fopen): adding to final database dump
+0064.389 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_posts.table.gz (16/12/fopen): adding to final database dump
+0064.396 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_term_relationships.table.tmpr100001.gz (17/12/fopen): adding to final database dump
+0064.404 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_term_relationships.table.gz (18/12/fopen): adding to final database dump
+0064.410 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_term_taxonomy.table.tmpr3.gz (19/12/fopen): adding to final database dump
+0064.417 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_term_taxonomy.table.gz (20/12/fopen): adding to final database dump
+0064.423 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_termmeta.table.tmpr0.gz (21/12/fopen): adding to final database dump
+0064.429 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_termmeta.table.gz (22/12/fopen): adding to final database dump
+0064.436 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_terms.table.tmpr3.gz (23/12/fopen): adding to final database dump
+0064.442 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db-table-wp_terms.table.gz (24/12/fopen): adding to final database dump
+0064.816 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db.gz: finished writing out complete database file (31.2 KB)
+0064.870 (0) Total database tables backed up: 12 (backup_2022-07-07-1835_zonastudio_9a30b451ad18-db.gz, size: 32080, sha1: c481543593ef1a16bed497c235b75ca1f9a260e6, sha256: 637062d044d99396aeea0628d61132a6e48bdecfd9697ee643a1591429c1f52a)
+0064.892 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0064.901 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0064.907 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0064.919 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-others.zip: others: This file has not yet been successfully uploaded: will queue
+0064.925 (0) backup_2022-07-07-1835_zonastudio_9a30b451ad18-db.gz: db: This file has not yet been successfully uploaded: will queue
+0064.931 (0) Saving backup history. Total backup size: 61.9 MB
+0064.944 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0064.963 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0064.967 (0) No remote despatch: user chose no remote backup service
+0064.971 (0) Recording as successfully uploaded: backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip
+0064.981 (0) Deleting zip manifest (backup_2022-07-07-1835_zonastudio_9a30b451ad18-plugins.zip.list.tmp)
+0064.986 (0) Recording as successfully uploaded: backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip
+0064.995 (0) Deleting zip manifest (backup_2022-07-07-1835_zonastudio_9a30b451ad18-themes.zip.list.tmp)
+0065.000 (0) Recording as successfully uploaded: backup_2022-07-07-1835_zonastudio_9a30b451ad18-uploads.zip
+0065.010 (0) Recording as successfully uploaded: backup_2022-07-07-1835_zonastudio_9a30b451ad18-others.zip
+0065.021 (0) Deleting zip manifest (backup_2022-07-07-1835_zonastudio_9a30b451ad18-others.zip.list.tmp)
+0065.025 (0) Recording as successfully uploaded: backup_2022-07-07-1835_zonastudio_9a30b451ad18-db.gz
+0065.040 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0065.044 (0) Number of backup sets in history: 1; groups (db): 1
+0065.048 (0) Examining (for databases) backup set with group_id=0, nonce=9a30b451ad18, datestamp=1657211712 (Jul 07 2022 16:35:12)
+0065.052 (0) This backup set is the backup set just made, so will not be deleted.
+0065.052 (0) Number of backup sets in history: 1; groups (files): 1
+0065.056 (0) Examining (for files) backup set with nonce=9a30b451ad18, datestamp=1657211712 (Jul 07 2022 16:35:12)
+0065.056 (0) This backup set is the backup set just made, so will not be deleted.
+0065.060 (0) This backup set is the backup set just made, so will not be deleted.
+0065.060 (0) This backup set is the backup set just made, so will not be deleted.
+0065.060 (0) This backup set is the backup set just made, so will not be deleted.
+0065.060 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0065.064 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0065.073 (0) Resume backup (9a30b451ad18, 0): finish run
+0065.085 (0) Decremented the semaphore (fd) by 1
+0065.095 (0) Semaphore (fd) unlocked
+0065.099 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0065.115 (0) No email will/can be sent - the user has not configured an email address.
+0065.119 (0) The backup apparently succeeded and is now complete
